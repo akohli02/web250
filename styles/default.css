@@ -1,16 +1,88 @@
+html {
+	margin:10px;
+	font-family:Helvetica;
+	background-color:#c9feff;
+
+}
+
 body{
 	color:#2123fc;
-	background-color:#c9feff;
-	font-family:Garamond;
 	font-size:21px;
 	
 }
 
-footer{
+#clock {
+	display:block;
+	font-size: 80px;
+	width: 100%;
+	border: 2px solid black;
+	background-color: #cbcbd6;
+	text-align:left;
+ }
+
+.column {
+	display:inline-block;
+	padding:10px;
+ 
+}
+	
+ img{
+	 display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+footer {
 	text-align:center;
 }
 
-h1{
+
+h1 {
 	color: #2123fc;
 	text-align:center;
 }
+
+main h2 {
+	text-align:center;
+}
+
+figcaption {
+	font-style:italic;
+	text-align:center;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* black background color to the top navigation */
+.links {
+  background-color: #cbcbd6;
+  overflow: hidden;
+}
+
+/* Style the links inside the nav bar */
+.links a {
+  float: left;
+  color: #4279bd;
+  text-align: center;
+  padding: 10px 50px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links while hovering over them */
+.links a:hover {
+  background-color: #ddd;
+  
+}
+
+/* Add a color to the current link */
+.links a.active {
+  background-color: #ad1079;
+  color: #731d38;
+}
+

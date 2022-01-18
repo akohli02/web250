@@ -15,38 +15,58 @@ body{
 	
 }
 
-/**Header Styles */
-
-h1 {
-	text-align:center;
+/**Grid Styles */
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto 1fr auto;
+	grid-template-areas: 
+		'header'
+		'main'
+		'footer';
 }
 
+header {
+	grid-area: header;
+	background-color:#b3c8ff;
+}
 
 main {
-	padding:10px;
+	grid-area: main;
+	overflow: auto;
+	padding: 15px 5px 10px 5px;
 }
-main h2 {
+
+
+footer {
+	grid-area: footer;
+}
+
+
+/**Header Styles */
+
+header h1 {
 	text-align:center;
 }
 
+
 #logo {
-	display:inline-block;
 	float:left;
-	width:15%;
-	vertical-align: top;
+
 }
 
 #clock {
-	display:inline-block;
-	font-size: 80px;
+	font-size: 55px;
 	width: 100%;
-	background-color: #b3c8ff;
 	text-align:right;
-	float:right;
+	
 	
  }
  
-
+ /**Main Styles */
+ main h2 {
+	text-align:center;
+}
 
 #brandInfo{
 	  margin: auto;
@@ -57,7 +77,7 @@ main h2 {
 }
 	
 	
- img{
+img{
 	 display: block;
 	margin-left: auto;
 	margin-right: auto;

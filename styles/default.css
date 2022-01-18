@@ -12,7 +12,6 @@ html {
 body{
 	font-size:21px;
 	background-color:#c9feff;
-
 	
 }
 
@@ -23,22 +22,30 @@ h1 {
 }
 
 
+main {
+	padding:10px;
+}
 main h2 {
 	text-align:center;
 }
 
+#logo {
+	display:inline-block;
+	float:left;
+	width:15%;
+	vertical-align: top;
+}
+
 #clock {
+	display:inline-block;
 	font-size: 80px;
 	width: 100%;
 	background-color: #b3c8ff;
 	text-align:right;
 	float:right;
+	
  }
  
-#logo {
-	float:left;
-	width:15%;
-}
 
 
 #brandInfo{
@@ -46,6 +53,7 @@ main h2 {
 	  text-align:left;
 	  background-color:#fdebff;
 	  line-height:30px;
+	  padding:10px;
 }
 	
 	

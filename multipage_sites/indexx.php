@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang = "en">
 <head>
@@ -16,9 +15,9 @@
 	<div class="wrapper">
 		<!-- Header with JS Clock, Class Name, and Brand logo -->
 		<header class="items">
-			
-			<img id ="logo" alt = "Logo" src="images/logo.png"/>
-			<div id="clock"></div> 
+			 
+			<img id ="logo" alt = "Logo" src="images/logo.png" />
+			<div id="clock"></div>
 			<h1>Aimy Kohli WEB250</h1>
 			
 			<nav class = "links">
@@ -29,26 +28,21 @@
 					<li><a href="brand.html">Brand</a></li>
 				</ul>
 			</nav>
+			
 		</header>
 		
 		<div class="items contents">
 			<main>
-				<h1>This is the home page of my web250 repo for Aimy.</h1>
+				<h2>Table of Contents</h2>
 				
 				<!-- Just a Bullet list -->
-				<ul>
+				<ol>
 
-					  <li>Just a list item </li>
-					  <li>Just a Sub Bullet List
-					  <ul>
-							<li>Sub bullet list item1</li>
-							<li>Sub bullet list item2</li>
-
-					  </ul>
-					  </li>
-					  <li> Just another List item</li>
+					  <li><a href="introduction.html">Introduction</a> </li>
+					<li><a href="contract.html">Contract</a></li>
+					<li><a href="brand.html">Brand</a></li>
 						
-				</ul> 
+				</ol> 
 			</main>
 		</div>
 	 
@@ -72,14 +66,14 @@
 				   uploaded -->
 			<div class = "row">
 				<div class = "column">
-				<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fakohli02.github.io%2Fweb250%2Findex.html" 
+				<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fakohli02.github.io%2Fweb250%2Fintroduction.html" 
 				style = "text-decoration: none; width: 100%">
 				<img src="images/button_validation_html5.png" alt="Validate HTML" />
 				</a>
 				</div>
 			
 			<div class = "column">
-				<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fakohli02.github.io%2Fweb250%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" 
+				<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fakohli02.github.io%2Fweb250%2Fintroduction.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" 
 				style = "text-decoration: none; width: 100%">
 				<img src="images/button_validation_css.png" alt="Validate CSS" />
 				</a>

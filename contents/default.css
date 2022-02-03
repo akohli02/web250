@@ -1,0 +1,135 @@
+/**HTML styles */
+
+html {
+	margin:10px;
+	font-family:Graphik;
+	background-color:#b3c8ff;
+	color:#40020a;
+
+}
+
+/**Body Styles */
+body{
+	font-size:21px;
+	background-color:#c9feff;
+	
+}
+
+/**Grid Styles */
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto 1fr auto;
+	grid-template-areas: 
+		'header'
+		'main'
+		'footer';
+}
+
+header {
+	grid-area: header;
+	background-color:#b3c8ff;
+}
+
+main {
+	grid-area: main;
+	overflow: auto;
+	padding: 15px 5px 10px 5px;
+}
+
+
+footer {
+	grid-area: footer;
+}
+
+
+/**Header Styles */
+
+header h1 {
+	text-align:center;
+}
+
+
+#logo {
+	float:left;
+
+}
+
+#clock {
+	font-size: 55px;
+	width: 100%;
+	text-align:right;
+	
+	
+ }
+ 
+ /**Main Styles */
+ main h2 {
+	text-align:center;
+}
+
+#brandInfo{
+	  margin: auto;
+	  text-align:left;
+	  background-color:#fdebff;
+	  line-height:30px;
+	  padding:10px;
+}
+	
+	
+img{
+	 display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+figcaption {
+	font-style:italic;
+	text-align:center;
+}
+
+/**Footer Styles */
+footer {
+	text-align:center;
+	background-color: #b3c8ff;
+	color:#40020a;
+}
+
+footer .column {
+	display:inline-block;
+	padding:10px;
+ 
+}
+
+ nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.links {
+  overflow: hidden;
+}
+
+/* Style the links inside the nav bar */
+ .links a {
+  float: left;
+  text-align: center;
+  padding: 10px 50px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links while hovering over them */
+ .links a:hover {
+  background-color:#fdebff;
+  
+}
+
+/* Add a color to the current link */
+ .links a.active {
+  color: #ecebf2;
+}
+

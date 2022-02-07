@@ -4,7 +4,7 @@
 	
 	<!-- Basic html info and file links -->
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	 <link href="default.css" rel="stylesheet" >
+	 <link href="styles/default.css" rel="stylesheet" >
 	 <script src="index.js"></script> 
 	 
 	<title>Aimy Kohli >> WEB250 >> Dynamic Index</title>
@@ -62,14 +62,14 @@
 				   uploaded -->
 			<div class = "row">
 				<div class = "column">
-				<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fakohli02.github.io%2Fweb250%2Fintroduction.html" 
+				<a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Faimykohli.infinityfreeapp.com%2Fweb250%2Fcontents%2Findexx.php" 
 				style = "text-decoration: none; width: 100%">
 				<img src="images/button_validation_html5.png" alt="Validate HTML" />
 				</a>
 				</div>
 			
 			<div class = "column">
-				<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fakohli02.github.io%2Fweb250%2Fintroduction.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" 
+				<a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Faimykohli.infinityfreeapp.com%2Fweb250%2Fcontents%2Findexx.php&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" 
 				style = "text-decoration: none; width: 100%">
 				<img src="images/button_validation_css.png" alt="Validate CSS" />
 				</a>

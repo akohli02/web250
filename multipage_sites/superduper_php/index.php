@@ -28,7 +28,7 @@
 <!-- dynamic content goes here -->
 
 <?php
-	$sPage = $_GET["p"];
+	$sPage = $_GET["p"] ?? "";
 	//echo ("You picked the page: " . $sPage); 
 	
 	if($sPage == "") {  $sPage = "home.php"; }

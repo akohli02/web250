@@ -21,8 +21,7 @@
 			<h1>Aimy Kohli WEB250</h1>
 			
 			<nav class = "links">
-				<ul>
-					<li><a href = "indexx.php"></a></li> 
+				<ul> 
 					<li><a href = "?p=toc.php">Table of Contents</a></li> 
 					<li><a href = "?p=introduction.php">Introduction</a> </li>
 					<li><a href = "?p=contract.php">Contract</a></li>

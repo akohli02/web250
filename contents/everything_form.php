@@ -57,15 +57,14 @@ input[type = "button"], input[type = "reset"] {
 }
 
 input[type = "submit"] {
+  display: block;
   background-color: #b3c8ff;
   color: #40020a;
   border: none;
   font-size: 17px;
   cursor: pointer;
   height:45px;
-  width:100px;
-margin-left:auto;
-margin-right:auto;
+  margin:0px auto;
 }
 
 input[type = "button"]:hover {
@@ -117,11 +116,12 @@ input[type = "color"] {
 	width:20px;
 }
 #memcard{
-	 width: 50px;
-    height: 50px;
-    border: solid 1px #000;
-    border-radius: 50%
+	width: 35px;
+    height: 35px;
+    border-radius: 50%;
 	font-size:25px;
+	text-align:center;
+	padding:5px;
 }
 
 </style>
@@ -225,10 +225,8 @@ input[type = "color"] {
 				<input type="text" id="expyear" name="expyear" placeholder="2018"></p>
 				<p><label for="cvv">CVV</label>
 				<input type="text" id="cvv" name="cvv" placeholder="352"></p>
-				<p><label  for="myfile">Please attach your Sweet Paradise membership card:</label>
-				<input id ="memcard" type="button" 
-				onclick="alert('This allows us to check your Sweet Paradise account and 
-							see if you have any additional discounts.')" value="?">
+				<p><label  for="myfile">Sweet Deal Coupon:</label>
+				<input type="button" id ="memcard" value="?" onClick="showMessage()" >
 				<input type="file" id="myfile" name="myfile"></p>
 				<input type ="submit" name="Submit" value ="Submit" > <br>
 
@@ -420,7 +418,12 @@ function send() {
                 }
                 return true;
             }
-
+			
+//show coupon message
+ function showMessage() {
+    alert("Have a sweet paradise coupon? Attach it below and get a sweet deal!");
+}
+			
 </script>
 
 	</div>

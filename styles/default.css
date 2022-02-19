@@ -1,8 +1,9 @@
 /**HTML styles */
 
 html {
-	margin:10px;
-	font-family:Graphik;
+	margin-left:20px;
+	margin-right:20px;
+	font-family:Fantasy, Copperplate;
 	background-color:#b3c8ff;
 	color:#40020a;
 
@@ -34,7 +35,7 @@ header {
 main {
 	grid-area: main;
 	overflow: auto;
-	padding: 15px 5px 10px 5px;
+	padding:30px;
 }
 
 
@@ -115,6 +116,7 @@ footer .column {
 
 /* Style the links inside the nav bar */
  .links a {
+  color:#40020a;
   float: left;
   text-align: center;
   padding: 10px 50px;
@@ -126,10 +128,16 @@ footer .column {
  .links a:hover {
   background-color:#fdebff;
   
+  
+}
+
+a:hover {
+  color:#40020a;
+  
 }
 
 /* Add a color to the current link */
  .links a.active {
-  color: #ecebf2;
+  color: #40020a;
 }
 

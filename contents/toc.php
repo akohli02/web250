@@ -25,6 +25,9 @@
 					  <li><a href="?p=introduction.php">Introduction</a> </li>
 					<li><a href="?p=contract.php">Contract</a></li>
 					<li><a href="?p=brand.php">Brand</a></li>
+					<li><a href="car_shop/sams_used_cars.html">Joy of PHP Car Shop</a></li>
+					<li><a href="?p=form_results.php">One Form, Two forms, Red forms, Green Forms, two results, one page</a></li>
+					<li><a href="?p=everything_form.php">Everything Form</a></li>
 						
 				</ol> 
 				

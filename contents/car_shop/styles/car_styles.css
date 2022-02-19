@@ -1,0 +1,33 @@
+.auto-style1 {
+	text-align: center;
+}
+
+h1 {
+	text-align:center;
+}
+
+h2 {
+	text-align:center;
+}
+
+.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+  overflow: hidden;
+  background-color: lightslategray;
+}
+
+#nav_link {
+  float: left;
+}
+
+#nav_link a {
+  display: block;
+  color: #F2F5A9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ 

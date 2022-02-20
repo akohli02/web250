@@ -5,15 +5,17 @@
 	
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		 <link href="styles/default.css" rel="stylesheet" >
-		 <script src="scripts/index.js"></script> 
+		 <script defer src="scripts/index.js"></script> 
 		 
 		<title>Aimy Kohli >> WEB250 >> Brand</title>
 	
 	</head>
 	
 	<body>
+	
+		<div class="wrapper">
 		
-		<div class="items contents">
+		<div class="items-contents">
 			<main>
 				<h2>Brand</h2>
 				<div id="brandInfo" style="width:800px;height:500px;border:5px solid #000;">
@@ -34,7 +36,7 @@
 						</li>
 						<li>Fonts
 							<ul>
-								<li>Main Content: Graphik</li>
+								<li>Main Content: Copperplate</li>
 								<li>Logo: Bonbon</li>
 							</ul>
 						</li>
@@ -44,9 +46,7 @@
 			</main>
 		</div>
 			
-		
 		</div>
 	</body>
-
 
 </html>

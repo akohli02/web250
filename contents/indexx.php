@@ -48,7 +48,7 @@
 		   
 				<li> <a href="https://github.com/akohli02"> GitHub Account</a> </li>
 				<li><a href="https://akohli02.github.io/">GitHub.io</a></li>
-				<li><a href="https://akohli02.github.io/web250/">GitHub WEB250 Repo</a></li>
+				<li><a href="https://akohli02.github.io/web250/">web250 github.io</a></li>
 				<li><a href="https://www.freecodecamp.org/akohli02">Free Code Camp</a></li> 
 				<li><a href="https://www.codecademy.com/profiles/akohli02">Codecademy </a></li>
 				<li><a href="https://jsfiddle.net/user/akohli02/">JSFiddle </a></li>

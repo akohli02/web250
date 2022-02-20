@@ -30,21 +30,20 @@
 				
 				<!-- PHP that outputs the form results for the post method -->
 				<?php 
-					 if (isset($_GET["submit1"])) { 
-					 $FNAME = $_GET["fname"]; 
-					 $LNAME = $_GET["lname"]; 
+					 if (isset($_POST["submit1"])) { 
+					 $fname = $_POST["fname"]; 
+					 $lname = $_POST["lname"]; 
 					  
-					 echo "Your first name is ". $FNAME  ."<br>"; 
-					 echo "Your last name is ". $LNAME."<br>";  
+					 echo "Your first name is ". $fname  ."<br>"; 
+					 echo "Your last name is ". $lname."<br>";  
 					 	  
 					} 
 				 ?> 
 				
 				<hr/>
 				<h2>Tell us about your favorites from Sweet Paradise</h2>
-
 				<h3>This form will use the "get" attribute</h3>
-				<form action="" method="get">
+				<form action="" method="get" >
 				  <label for="fcandy">Favorite candy:</label>
 				  <input type="text" id="fcandy" name= "fcandy" ><br><br>
 				  <label for="ficream">Favorite ice cream flavor:</label>
@@ -55,11 +54,11 @@
 				<!-- PHP that outputs the form results for the get method -->
 				<?php 
 					 if (isset($_GET["submit"])) { 
-					 $FCANDY = $_GET["fcandy"]; 
-					 $FICREAM = $_GET["ficream"]; 
+					 $fcandy = $_GET["fcandy"]; 
+					 $ficream = $_GET["ficream"]; 
 					  
-					 echo "Your favorite candy is ". $FCANDY ."<br>"; 
-					 echo "Your favorite ice cream flavor is ". $FICREAM."<br>";  
+					 echo "Your favorite candy is ". $fcandy ."<br>"; 
+					 echo "Your favorite ice cream flavor is ". $ficream."<br>";  
 					 	  
 					} 
 				 ?> 
@@ -67,7 +66,7 @@
 				<hr/>
 				
 				 <h2>Tell us about your favorites from Sweet Paradise</h2>
-				<h3>This form will use the "post" attribute</h3>
+				 <h3>This form will use the "post" attribute</h3>
 				<form action="" method="post" >
 				  <label for="fcandy">Favorite candy:</label>
 				  <input type="text" id="fcandy" name= "fcandy" ><br><br>
@@ -79,11 +78,11 @@
 				<!-- PHP that outputs the form results for the post method -->
 				<?php 
 					 if (isset($_POST["submit"])) { 
-					 $FCANDY = $_POST["fcandy"]; 
-					 $FICREAM = $_POST["ficream"]; 
+					 $fcandy = $_POST["fcandy"]; 
+					 $ficream = $_POST["ficream"]; 
 					  
-					 echo "Your favorite candy is ". $FCANDY ."<br>"; 
-					 echo "Your favorite ice cream flavor is ". $FICREAM."<br>";  
+					 echo "Your favorite candy is ". $fcandy ."<br>"; 
+					 echo "Your favorite ice cream flavor is ". $ficream."<br>";  
 					 	  
 					} 
 				 ?> 

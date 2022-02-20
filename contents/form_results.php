@@ -5,7 +5,7 @@
 	<!-- Basic html info and file links -->
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	 <link href="styles/default.css" rel="stylesheet" >
-	 <script src="scripts/index.js"></script> 
+	 <script defer src="scripts/index.js"></script> 
 	 
 	<title>Aimy Kohli >> WEB250 >> Module 6 Forms</title>
 
@@ -14,7 +14,7 @@
 <body>
 	<div class="wrapper">
 		
-		<div class="items contents">
+		<div class="items-contents">
 			<main>
 				<h2>Module 6 Forms<br>
 				Sweet Paradise Survey Forms</h2>

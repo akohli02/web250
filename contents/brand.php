@@ -36,7 +36,7 @@
 						</li>
 						<li>Fonts
 							<ul>
-								<li>Main Content: Copperplate</li>
+								<li>Main Content: Poppins</li>
 								<li>Logo: Bonbon</li>
 							</ul>
 						</li>

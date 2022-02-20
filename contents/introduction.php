@@ -14,7 +14,7 @@
 	<div class="wrapper">
 		
 		
-		<div class="items contents">
+		<div class="items-contents">
 			<main>
 				<h2>Introduction</h2>
 				

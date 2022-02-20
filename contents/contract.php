@@ -9,8 +9,9 @@
 </head>
 
 <body>
-		
-	<div class="items contents">
+	<div class="wrapper">
+	
+	<div class="items-contents">
 		<main>
 			<h2>Course Contract</h2>
 			
@@ -36,6 +37,7 @@
 	</div>
 	
 	</div>
+
 </body>
 
 </html>

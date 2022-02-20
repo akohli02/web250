@@ -5,7 +5,7 @@
 	<!-- Basic html info and file links -->
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	 <link href="styles/default.css" rel="stylesheet" >
-	 <script src="index.js"></script> 
+	 <script defer src="index.js"></script> 
 	 
 	<title>Aimy Kohli >> WEB250 >> Dynamic Index</title>
 
@@ -40,7 +40,6 @@
 			if($sPage == "") {  $sPage = "toc.php"; }
 			include($sPage);
 		?>
-	 
 	 
 		<footer class="items">
 			<nav class="links">

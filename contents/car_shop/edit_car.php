@@ -1,17 +1,8 @@
 <html>
 <head>
-<link rel="stylesheet" href="styles/car_styles.css">
 <title>Car Saved</title>
 </head>
 <body bgcolor="#FFFFFF" text="#000000" >
-<ul class = "nav">
-  <li id = "nav_link"><a href="sams_used_cars.html">Home</a></li>
-  <li id = "nav_link"><a href="car_form.htm">Add a Car</a></li>
-  <li id = "nav_link"><a href="basic_view_cars.php">View Cars with Basic Formatting</a></li>
-  <li id = "nav_link"><a href="view_cars_with_style.php">View Cars with Style</a> </li>
-  <li id = "nav_link"><a href="view_cars_with_style_two.php">View Cars with Edit/Delete Links</a></li>
-  <li id = "nav_link"><a href="view_cars_add_image.php">Add Images to Cars</a></li>
-</ul>
 
 <?php
 // Capture the values posted to this php program from the text fields in the form

@@ -1,5 +1,4 @@
 
-
 <?php
  include 'db.php';
  $vin = trim($_POST['VIN']);

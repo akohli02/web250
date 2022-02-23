@@ -15,7 +15,6 @@
 	
 		<div class="wrapper">
 		
-		<div class="items-contents">
 			<main>
 				<h2>Brand</h2>
 				<div id="brandInfo" style="width:800px;height:500px;border:5px solid #000;">
@@ -43,9 +42,7 @@
 						
 					</ul>
 					</div>
-			</main>
-		</div>
-			
+			</main>			
 		</div>
 	</body>
 

@@ -11,7 +11,6 @@
 <body>
 	<div class="wrapper">
 	
-	<div class="items-contents">
 		<main>
 			<h2>Course Contract</h2>
 			
@@ -33,9 +32,7 @@
 			<p>
 				<em>Signed: Aimy Kohli, 12/01/2022</em>
 			</p>
-		</main>
-	</div>
-	
+		</main>	
 	</div>
 
 </body>

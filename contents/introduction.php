@@ -13,14 +13,11 @@
 
 	<div class="wrapper">
 		
-		
-		<div class="items-contents">
 			<main>
 				<h2>Introduction</h2>
 				
-				<img src = "images/profile_pic.jpg" alt="my profile picture">
-				<figure><figcaption>Shopping in the mall!</figcaption></figure>
-				<h3>Introduction || <a href="contract.html">Course Contract</a></h3>
+				<figure> <img src = "images/profile_pic.jpg" alt="my profile picture">
+				<figcaption>Shopping in the mall!</figcaption></figure>
 				
 				 <ul>
 					  <li>Personal background: I was born and raised mostly in Charlotte, North Carolina. </li>
@@ -37,18 +34,16 @@
 							<li>WEB250-N801 - Database Driven Websites - This course is required for my degree. </li>
 					  </ul>
 					  </li>
-					  <li> Funny/Interesting item about yourself: I really love animals so I have had a variety of pets.<br>
-					  One boring summer, my brother and I made an incubator at home and bought eggs from a farm. They<br>
-					  actually hatched but for about a month we had 11 chickens running around the house. At the time I<br>
-					  had 2 other pet birds who weren’t happy with the chickens running off with their food.<br>
+					  <li>Funny/Interesting item about yourself: I really love animals so I have had a variety of pets.
+					  One boring summer, my brother and I made an incubator at home and bought eggs from a farm. They
+					  actually hatched but for about a month we had 11 chickens running around the house. At the time I
+					  had 2 other pet birds who weren’t happy with the chickens running off with their food.
 					  My mom made me give them away. :)</li>
 					  <li>I'd also like to share: I enjoy reading books, listening to music (especially Kpop), and watching anime and dramas.</li>
 						
 				</ul> 
 				
-				
 			</main>
-		</div>
 	
 	</div>
 </body>

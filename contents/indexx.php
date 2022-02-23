@@ -14,15 +14,17 @@
 <body>
 	<div class="wrapper">
 		<!-- Header with JS Clock, Class Name, and Brand logo -->
-		<header class="items">
+		<header>
 			 
 			<img id ="logo" alt = "Logo" src="images/logo.png" />
 			<div id="clock"></div>
-			<h1>Aimy Kohli WEB250</h1>
+			<br>
+			<h1>Sweet Paradise</h1>
+			<h2>Aimy Kohli WEB250</h2>
 			
-			<nav class = "links">
+			<nav>
 				<ul>
-					<li><a href = "?p=toc.php">Table of Contents</a></li> 
+					<li><a href = "?p=toc.php">Home</a></li> 
 					<li><a href = "?p=introduction.php">Introduction</a> </li>
 					<li><a href = "?p=contract.php">Contract</a></li>
 					<li><a href = "?p=brand.php">Brand</a></li>
@@ -41,8 +43,8 @@
 			include($sPage);
 		?>
 	 
-		<footer class="items">
-			<nav class="links">
+		<footer>
+			<nav>
 			<ul>
 		   
 				<li> <a href="https://github.com/akohli02"> GitHub Account</a> </li>
@@ -59,28 +61,22 @@
 		<br/>
 		Designed by Sweet Paradise &copy;2022
        <br/>
-	   Delight in Every Bite 
+	   <em>Delight in Every Bite</em>
        <br/>
 			
 			<!-- you may need to change the name of your image link to match the one you 
 				   uploaded -->
-			<div class = "row">
-				<div class = "column">
+
 				<a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Faimykohli.infinityfreeapp.com%2Fweb250%2Fcontents%2Findexx.php" 
 				style = "text-decoration: none; width: 100%">
 				<img src="images/button_validation_html5.png" alt="Validate HTML" />
 				</a>
-				</div>
-			
-			<div class = "column">
+
 				<a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Faimykohli.infinityfreeapp.com%2Fweb250%2Fcontents%2Findexx.php&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" 
 				style = "text-decoration: none; width: 100%">
 				<img src="images/button_validation_css.png" alt="Validate CSS" />
 				</a>
-				</div>
-			</div>
-			
-		
+
 		</footer>
 	</div>
 </body>

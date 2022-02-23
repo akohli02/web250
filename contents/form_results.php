@@ -14,12 +14,10 @@
 <body>
 	<div class="wrapper">
 		
-		<div class="items-contents">
 			<main>
 				<h2>Module 6 Forms<br>
 				Sweet Paradise Survey Forms</h2>
-				
-				
+								
 				<form action="" method="post" >
 				  <label for="fname">First name:</label>
 				  <input type="text" id="fname" name= "fname" ><br><br>
@@ -90,7 +88,6 @@
 				
 				<hr/>
 			</main>
-		</div>
 	 
 	</div>
 </body>

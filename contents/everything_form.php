@@ -130,7 +130,6 @@ input[type = "color"] {
 <body>
 	<div class="wrapper">
 		
-		<div class="items-contents">
 			<main>
 			
 			 <form id="regForm" action="" method="post">
@@ -321,11 +320,7 @@ input[type = "color"] {
 				<span class="step"></span>
 			  </div>
 			</form>
-			</main>
-		</div>
-			  
-			  
-			  
+			</main>			  	  
 			 
 <script>
 var currentTab = 0; // Current tab is set to be the first tab (0)

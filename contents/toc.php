@@ -14,15 +14,13 @@
 <body>
 	<div class="wrapper">
 		
-		
-		<div class="items-contents">
 			<main>
 				<h2>Table of Contents</h2>
 				
 				<!-- Just a Bullet list -->
 				<ol>
 
-					  <li><a href="?p=introduction.php">Introduction</a> </li>
+					 <li><a href="?p=introduction.php">Introduction</a> </li>
 					<li><a href="?p=contract.php">Contract</a></li>
 					<li><a href="?p=brand.php">Brand</a></li>
 					<li><a href="car_shop/sams_used_cars.html">Joy of PHP Car Shop</a></li>
@@ -31,15 +29,9 @@
 						
 				</ol> 
 				
-				
 			</main>
-			
-		</div>
 		
 	</div>
-	
-			
-	
 	
 </body>
 </html>

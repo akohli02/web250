@@ -7,14 +7,12 @@
 		 <link href="styles/default.css" rel="stylesheet" >
 		 <script defer src="scripts/index.js"></script> 
 		 
-		<title>Aimy Kohli >> WEB250 >> Brand</title>
+		<title>Aimy Kohli >> WEB250 >> Sweet Paradise >> Brand</title>
 	
 	</head>
 	
 	<body>
 	
-		<div class="wrapper">
-		
 			<main>
 				<h2>Brand</h2>
 				<div id="brandInfo" style="width:800px;height:500px;border:5px solid #000;">
@@ -43,7 +41,6 @@
 					</ul>
 					</div>
 			</main>			
-		</div>
 	</body>
 
 </html>

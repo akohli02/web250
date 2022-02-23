@@ -7,7 +7,7 @@
 	 <link href="styles/default.css" rel="stylesheet" >
 	 <script defer src="scripts/index.js"></script> 
 	 
-	<title>Aimy Kohli >> WEB250 >> Everything Form</title>
+	<title>Aimy Kohli >> WEB250 >> Sweet Paradise >> Everything Form</title>
 	
 <style>
 * {
@@ -128,8 +128,6 @@ input[type = "color"] {
 </head>
 
 <body>
-	<div class="wrapper">
-		
 			<main>
 			
 			 <form id="regForm" action="" method="post">
@@ -421,6 +419,5 @@ function send() {
 			
 </script>
 
-	</div>
 </body>
 </html>

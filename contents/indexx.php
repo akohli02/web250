@@ -7,12 +7,11 @@
 	 <link href="styles/default.css" rel="stylesheet" >
 	 <script defer src="index.js"></script> 
 	 
-	<title>Aimy Kohli >> WEB250 >> Dynamic Index</title>
+	<title>Aimy Kohli >> WEB250 >> Sweet Paradise >> Dynamic Index</title>
 
 </head>
 
 <body>
-	<div class="wrapper">
 		<!-- Header with JS Clock, Class Name, and Brand logo -->
 		<header>
 			 
@@ -78,6 +77,6 @@
 				</a>
 
 		</footer>
-	</div>
+
 </body>
 </html>

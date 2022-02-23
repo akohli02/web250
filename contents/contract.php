@@ -5,12 +5,10 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	 <link href="default.css" rel="stylesheet" >
 	 <script defer src="scripts/index.js"></script> 
-	<title>Aimy Kohli >> WEB250 >> Course Contract</title>
+	<title>Aimy Kohli >> WEB250 >> Sweet Paradise >> Course Contract</title>
 </head>
 
 <body>
-	<div class="wrapper">
-	
 		<main>
 			<h2>Course Contract</h2>
 			
@@ -33,7 +31,6 @@
 				<em>Signed: Aimy Kohli, 12/01/2022</em>
 			</p>
 		</main>	
-	</div>
 
 </body>
 

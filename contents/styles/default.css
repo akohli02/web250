@@ -16,24 +16,7 @@ body{
 
 }
 
-/**Grid Styles */
-.wrapper {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: auto 1fr auto;
-	grid-template-areas: 
-		'header'
-		'main'
-		'footer';
-}
-
-header {
-	grid-area: header;
-	background-color:#b3c8ff;
-}
-
 main {
-	grid-area: main;
 	padding-left:30px;
 	padding-top:0px;
 	padding-right:0px;
@@ -43,17 +26,17 @@ main {
 }
 
 
-footer {
-	grid-area: footer;
-}
-
 
 /**Header Styles */
 
 header  {
 	text-align:center;
+	background-color:#b3c8ff;
 }
 
+header h1 {
+	line-height:13px;
+}
 
 #logo {
 	float:left;
@@ -65,8 +48,6 @@ header  {
 	width: 100%;
 	height:5px;
 	text-align:right;
-	
-	
  }
  
  /**Main Styles */
@@ -103,13 +84,15 @@ footer {
 }
 
 footer img{
-	display:inline-block;
-	padding:0px;
-	padding-top:10px;
-	position:relative;
-	float:left;
-	left:560px;
-	padding-right:5px;
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+	padding-top:8px;
+}
+
+/* Style the links inside the nav bar */
+nav {
+  overflow: hidden;
 }
 
  nav ul {
@@ -119,12 +102,6 @@ footer img{
   text-align: center;
   position:relative;
 
-}
-
-
-/* Style the links inside the nav bar */
-nav {
-  overflow: hidden;
 }
 
 nav ul a {

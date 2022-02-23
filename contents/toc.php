@@ -7,31 +7,27 @@
 	 <link href="styles/default.css" rel="stylesheet" >
 	 <script src="index.js"></script> 
 	 
-	<title>Aimy Kohli >> WEB250 >> Dynamic TOC</title>
+	<title>Aimy Kohli >> WEB250 >> Sweet Paradise >> Dynamic TOC</title>
 
 </head>
 
 <body>
-	<div class="wrapper">
-		
-			<main>
-				<h2>Table of Contents</h2>
-				
-				<!-- Just a Bullet list -->
-				<ol>
+		<main>
+			<h2>Table of Contents</h2>
+			
+			<!-- Just a Bullet list -->
+			<ol>
 
-					 <li><a href="?p=introduction.php">Introduction</a> </li>
-					<li><a href="?p=contract.php">Contract</a></li>
-					<li><a href="?p=brand.php">Brand</a></li>
-					<li><a href="car_shop/sams_used_cars.html">Joy of PHP Car Shop</a></li>
-					<li><a href="?p=form_results.php">One Form, Two forms, Red forms, Green Forms, two results, one page</a></li>
-					<li><a href="?p=everything_form.php">Everything Form</a></li>
-						
-				</ol> 
-				
-			</main>
-		
-	</div>
+				 <li><a href="?p=introduction.php">Introduction</a> </li>
+				<li><a href="?p=contract.php">Contract</a></li>
+				<li><a href="?p=brand.php">Brand</a></li>
+				<li><a href="car_shop/sams_used_cars.html">Joy of PHP Car Shop</a></li>
+				<li><a href="?p=form_results.php">One Form, Two forms, Red forms, Green Forms, two results, one page</a></li>
+				<li><a href="?p=everything_form.php">Everything Form</a></li>
+					
+			</ol> 
+			
+		</main>
 	
 </body>
 </html>

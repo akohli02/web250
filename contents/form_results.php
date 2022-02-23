@@ -7,13 +7,11 @@
 	 <link href="styles/default.css" rel="stylesheet" >
 	 <script defer src="scripts/index.js"></script> 
 	 
-	<title>Aimy Kohli >> WEB250 >> Module 6 Forms</title>
+	<title>Aimy Kohli >> WEB250 >> Sweet Paradise >> Module 6 Forms</title>
 
 </head>
 
 <body>
-	<div class="wrapper">
-		
 			<main>
 				<h2>Module 6 Forms<br>
 				Sweet Paradise Survey Forms</h2>
@@ -88,7 +86,5 @@
 				
 				<hr/>
 			</main>
-	 
-	</div>
 </body>
 </html>

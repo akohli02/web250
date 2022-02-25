@@ -12,35 +12,35 @@
 	</head>
 	
 	<body>
-	
-			<main>
-				<h2>Brand</h2>
-				<div id="brandInfo" style="width:800px;height:500px;border:5px solid #000;">
-				
-					<h2>Sweet Paradise</h2>
-					
+	<main>
+		<section>
+			<h2>Brand</h2>
+		
+			<h3>Sweet Paradise</h3>
+			
+			<ul>
+				<li>Concept: Sweet Paradise is an online desserts store. </li>
+				<li>Mission Statement: Sweet Paradise aims to exceed the customer's expectations
+				and provide high quality products. Our staff will be trained to deliver
+				exceptional customer service and follow the guidelines of our business.</li>
+				<li>Tagline: "Delight in Every Bite"</li>
+				<li>Color Schemes:
 					<ul>
-						<li>Concept: Sweet Paradise is an online desserts store. </li>
-						<li>Mission Statement: Sweet Paradise aims to exceed the customer's expectations <br>
-						and provide high quality products. Our staff will be trained to deliver<br>
-						exceptional customer service and follow the guidelines of our business.</li>
-						<li>Tagline: "Delight in Every Bite"</li>
-						<li>Color Schemes:
-							<ul>
-								<li>Background: #b3c8ff #c9feff #fdebff</li>
-								<li>Foreground: #ecebf2 #40020a</li>
-							</ul>
-						</li>
-						<li>Fonts
-							<ul>
-								<li>Main Content: Poppins</li>
-								<li>Logo: Bonbon</li>
-							</ul>
-						</li>
-						
+						<li>Background: #b3c8ff #c9feff #fdebff</li>
+						<li>Foreground: #ecebf2 #40020a</li>
 					</ul>
-					</div>
-			</main>			
+				</li>
+				<li>Fonts
+					<ul>
+						<li>Main Content: Poppins</li>
+						<li>Logo: Bonbon</li>
+					</ul>
+				</li>
+				
+			</ul>
+		</section>
+	</main>			
+	
 	</body>
 
 </html>

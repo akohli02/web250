@@ -18,14 +18,11 @@ body{
 
 main {
 	padding-left:30px;
-	padding-top:0px;
-	padding-right:0px;
+	padding-top:5px;
+	padding-right:30px;
 	padding-bottom:5px;
 	background-color:#c9feff;
-	
 }
-
-
 
 /**Header Styles */
 
@@ -55,13 +52,21 @@ header h1 {
 	text-align:center;
 }
 
-#brandInfo{
-	  margin: auto;
+main h3 {
+	text-align:center;
+}
+
+section {
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom:30px;
+	  margin-top:30px;
 	  text-align:left;
 	  background-color:#fdebff;
 	  line-height:30px;
 	  padding:10px;
-	  padding-bottom:0px;
+	  width:auto;
+	  height:auto; 
 }
 	
 	
@@ -104,13 +109,22 @@ nav {
 
 }
 
+footer nav ul a {
+  color:#40020a;
+  float: left;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
 nav ul a {
   color:#40020a;
   float: left;
   text-align: center;
-  padding: 10px 40px;
+  padding: 10px 20px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 /* Change the color of links while hovering over them */

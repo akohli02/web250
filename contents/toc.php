@@ -13,6 +13,7 @@
 
 <body>
 		<main>
+		<section>
 			<h2>Table of Contents</h2>
 			
 			<!-- Just a Bullet list -->
@@ -24,9 +25,10 @@
 				<li><a href="car_shop/sams_used_cars.html">Joy of PHP Car Shop</a></li>
 				<li><a href="?p=form_results.php">One Form, Two forms, Red forms, Green Forms, two results, one page</a></li>
 				<li><a href="?p=everything_form.php">Everything Form</a></li>
+				<li><a href="?p=text_driven_website.php">Text Driven Website - Employee List</a></li>
 					
 			</ol> 
-			
+		</section>
 		</main>
 	
 </body>

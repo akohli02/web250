@@ -10,7 +10,7 @@
 </head>
 
 <body>
-	<<main>
+	<main>
 		<section>
 			<h2>Introduction</h2>
 			

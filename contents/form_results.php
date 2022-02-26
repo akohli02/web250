@@ -13,6 +13,7 @@
 
 <body>
 			<main>
+			<section>
 				<h2>Module 6 Forms<br>
 				Sweet Paradise Survey Forms</h2>
 								
@@ -83,8 +84,8 @@
 					} 
 				 ?> 
 				
-				
 				<hr/>
+				</section>
 			</main>
 </body>
 </html>

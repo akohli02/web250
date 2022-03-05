@@ -40,7 +40,7 @@
 				<hr/>
 				<h2>Tell us about your favorites from Sweet Paradise</h2>
 				<h3>This form will use the "get" attribute</h3>
-				<form action="" method="get" >
+				<form action="form_results.php" method="get" >
 				  <label for="fcandy">Favorite candy:</label>
 				  <input type="text" id="fcandy" name= "fcandy" ><br><br>
 				  <label for="ficream">Favorite ice cream flavor:</label>

@@ -1,6 +1,39 @@
 <html>
 <head>
-<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	 <link href="styles/default.css" rel="stylesheet" >
+	 <script defer src="scripts/index.js"></script> 
+	 
+	<title>Aimy Kohli >> WEB250 >> Sweet Paradise >> Menu</title>
+
+<style>
+
+.first{
+    display: inline-block;
+    width: 400px;
+    height: 550px;
+    text-align:center;
+    float:left;
+}
+
+.second{
+    display: inline-block;
+    width: 400px;
+    height: 550px;
+    text-align:center;
+    float:center;
+    }
+
+.third{
+    display: inline-block;
+    width: 400px;
+    height: 550px;
+    text-align:center;
+    float:right;
+}
+
+</style>
+
 </head>
 <body>
 	<main>
@@ -11,64 +44,52 @@
 <?php include 'db.php';
 
 $ID = $_GET['ID'];
-$query = "SELECT * FROM menu WHERE ID='$ID'";
+$query = "SELECT * FROM menu ORDER BY Name";
 
 /* Try to query the database */
 if ($result = $mysqli->query($query)) {
-   // Don't do anything if successful.
-   //For now
-   echo "It works!";
+   // Don't do anything if successful
+
 }
 else
 {
-    echo "Sorry, a fodd with the ID of $ID cannot be found " . mysql_error()."<br>";
+    echo "Sorry, a food with the ID of $ID cannot be found " . mysql_error()."<br>";
 }
 
-// Loop through all the rows returned by the query, creating a table row for each
+$class ="first";
+
+// Loop through all the rows returned by the query
 while ($result_ar = mysqli_fetch_assoc($result)) {
+    //Display food image and image source
     $image = $result_ar['Image'];
-	$name = $result_ar['Name'];
-    $description = $result_ar['Description'];
-    $ingredients = $result_ar['Ingredients'];
-    /**$color = $result_ar['EXT_COLOR'];
-    $interior = $result_ar['INT_COLOR'];
-    $mileage = $result_ar['MILEAGE']; 
-    $transmission = $result_ar['TRANSMISSION']; 
-    $price = $result_ar['ASKING_PRICE'];
-	$image = $result_ar['PRIMARY_IMAGE'];*/
+     echo "<div class = \"$class\">" . $result_ar['Image_Source'] . "<br>".
+    "<IMG src= 'images/$image' style = height:200px; width:300px;>"."<br>"
+
+    //Display name, description, and ingredients
+      ."Name: ".$result_ar['Name'] . "<br>"
+      ."Price: $".$result_ar['Price'] . "<br>"
+      ."Description: " .$result_ar['Description'] . "<br>"
+      ."Ingredients: " .$result_ar['Ingredients'] . "</div>";
+
+    // If the last row was even, make the next one odd and vice-versa
+    if ($class=="first"){
+        $class="second";
+    }
+    else if($class=="second")
+    {
+        $class="third";
+    }
+    else
+    {
+        $class="first";
+    }
+  
 }
-
-echo "<IMG src= 'images/$image'>";
-echo "<p>$name $description $ingredients</p>";
-echo "<p>Nutritional Facts" ."<span id='dots'>". "..." ."</span>".
-"<span id='more'>"."Just some sample text"."</span>"."</p>";
-echo "<button onclick='myFunction()' id='myBtn'>"."Read more"."</button>";
-   
-?>
-
 $mysqli->close();
 ?>
 		</section>
 	</main>
 
-<!-- Read More, Read Less Function that shows the nutrional facts-->
-<script>
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
-    moreText.style.display = "inline";
-  }
-}
-</script>
 
 </body>
 

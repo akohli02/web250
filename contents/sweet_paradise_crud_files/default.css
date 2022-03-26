@@ -56,8 +56,6 @@ main h3 {
 	text-align:center;
 }
 
-
-
 section {
 	  margin-left: auto;
 	  margin-right: auto;
@@ -70,7 +68,6 @@ section {
 	  width:auto;
 	  height:auto; 
 }
-	
 	
 img{
 	display: block;
@@ -142,26 +139,10 @@ nav ul a {
 }
 
 /*Style relating to the sweet paradise crud website */
-
-
-.header {
-  width: 30%;
-  margin: 50px auto 0px;
-  color: white;
-  background: #5F9EA0;
-  text-align: center;
-  border: 1px solid #B0C4DE;
-  border-bottom: none;
-  border-radius: 10px 10px 0px 0px;
-  padding: 20px;
-}
-
-form {
+#regForm {
   background-color: #fdebff;
-  margin: 100px auto;
-  font-family: Raleway;
-  padding: 40px;
-  width: 70%;
+  margin: 30px auto;
+  width: 80%;
   min-width: 300px;
 }
 
@@ -184,7 +165,7 @@ input[type = "button"], input[type = "reset"] {
   font-size: 17px;
   cursor: pointer;
   height:45px;
-	width:100px;
+  width:100px;
 
 }
 
@@ -203,26 +184,74 @@ input[type = "button"]:hover {
   opacity: 0.8;
 }
 
-.btn {
-  padding: 10px;
-  font-size: 15px;
-  color: white;
-  background: #5F9EA0;
-  border: none;
-  border-radius: 5px;
-}
 .error {
-  width: 92%; 
+  width: 600px; 
   margin: 0px auto; 
-  padding: 10px; 
   border: 1px solid #a94442; 
   color: #a94442; 
   background: #f2dede; 
   border-radius: 5px; 
-  text-align: left;
+  text-align: center;
 }
 .success {
   color: #3c763d; 
   background: #dff0d8; 
   border: 1px solid #3c763d;
   margin-bottom: 20px;
+}
+
+.logout-text{
+  width:85px;
+  height:85px;
+  border-radius:100px;
+  background-color: #b3c8ff;
+  text-align:center;
+}
+
+.logout-text a{
+    text-decoration: none;
+    position:relative;
+    top:28px;
+    color: #40020a;
+  }
+
+/*Divider for multiple Sweet Paradise Bake Off submissions*/
+
+.divider {
+  margin:64px auto;
+  width:400px; 
+  max-width: 100%;
+  position:relative;
+}
+
+.dividermask { 
+    overflow:hidden; height:20px; 
+}
+
+.dividermask:after { 
+      content:''; 
+      display:block; margin:-25px auto 0;
+      width:100%; height:25px;  
+        border-radius:125px / 12px;
+       box-shadow:0 0 8px #b3c8ff;
+}
+.divider span {
+    width:50px; height:50px; 
+    position:absolute; 
+    bottom:100%; margin-bottom:-25px;
+    left:50%; margin-left:-25px;
+    border-radius:100%;
+   box-shadow:0 2px 4px #b3c8ff;
+    background:#b3c8ff;
+}
+.divider i {
+    position:absolute;
+    top:4px; bottom:4px;
+    left:4px; right:4px;
+    border-radius:100%;
+    border:1px dashed #fdebff;
+    text-align:center;
+    line-height:40px;
+    font-style:normal;
+}
+

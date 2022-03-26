@@ -1,4 +1,5 @@
 <?php include 'session.php'; include 'db.php'; ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,26 +7,26 @@
   <link rel="stylesheet" type="text/css" href="default.css">
 </head>
 <body>
-  <div class="header">
-  	<h2>Login</h2>
-  </div>
-	 
-  <form method="post" action="login.php">
-  	<?php include('errors.php'); ?>
-  	<div class="input-group">
-  		<label>Username</label>
-  		<input type="text" name="username" >
-  	</div>
-  	<div class="input-group">
-  		<label>Password</label>
-  		<input type="password" name="password">
-  	</div>
-  	<div class="input-group">
-  		<button type="submit" class="btn" name="login_user">Login</button>
-  	</div>
-  	<p>
-  		Not yet a member? <a href="register.php">Sign up</a>
-  	</p>
-  </form>
+  	<main>
+        <section>
+            <form id = "regForm" method="post" action="">
+            <h2>Login</h2>	 
+            <?php include('errors.php'); ?>
+
+                <label>Username</label>
+                <input type="text" name="username" >
+
+                <label>Password</label>
+                <input type="password" name="password">
+
+                <button type="submit" class="btn" name="login_user">Login</button>
+
+            <p>
+                Not a Sweet Paradise member? <a href="register.php">Sign up here!</a>
+            </p>
+
+            </form>
+    </section>
+  </main>
 </body>
 </html>

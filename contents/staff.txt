@@ -1,59 +1,59 @@
-employee_one.jpg
-Personal Background: Hello, I'm Ren Lee. I was born in Japan, but moved to Albany, New York, when I was three. Later on, I moved to Philadelphia, Pennsylvania, for my studies. 
-Academic Background: I graduated from Walnut Hill College with my Associates and Bachelor's in Culinary Arts. 
-Funny/Interesting item about yourself: In high school, I went roller blading with my friends and skipped class. I got caught :| 
-I'd also like to share: I enjoy riding motorcycles and playing sports. 
-
-employee_two.jpg
-Personal Background: I'm Steve Evans. I grew up in Charlotte, North Carolina.
-Academic Background: I'm currently attending Holyoke Community College in Holyoke, Massachusetts. I will be graduating this May with my AAS in Culinary Arts.
-Funny/Interesting item about yourself: Some people say I look like Captain America.
-I'd also like to share: I'm actually a very good artist.
-
-employee_three.jpg
-Personal Background: Hi! My name is Reyna Parker. I was born and raised in Sarasota, Florida. I re-located to Gulf Shores, Alabama, when I was seventeen.
-Academic Background: I attended the Coastal Alabama Community College and earned my AAS in Baking and Pastry Arts and AAS inCulinary Arts.
-Funny/Interesting item about yourself: I love trying out different foods and traveling. 
-I'd also like to share: My dream vacation is to go to South Korea.
-
-employee_four.jpg
-Personal Background: Hello, everyone. I'm Jin Kook. I'm from South Korea and now live in Los Angeles, CA.
-Academic Background: I earned my BS in Culinary Arts and AAS in Baking and Pastry Arts from Culinary Institute LENOTRE. 
-Funny/Interesting item about yourself: I can make many different candies. Sometimes, I even make them by hand. 
-I'd also like to share: I can speak Korean. 
-
-employee_five.jpg
-Personal Background: I'm Kai Chen. I was born in the amazing state Hawaii. I grew up cooking with my family and running along some beautiful beaches.
-Academic Background: I started attending Kapiolani Community College in 2015. Since then, I have earned my AS in Food services-Culinary Arts and a Certificate of Completion Pastry Arts.
-Funny/Interesting item about yourself: I once went on a cooking spree and made about 200 cupcakes. I also decorated then quite professionally, if I may add.
-I'd also like to share: I have traveled to over seven different countries. I also have family in South Korean and can speak fluent Korean.
-
-employee_six.jpg
-Personal Background: Hello, there. My name is Jackson Young.
-Academic Background: I went to Westmoreland County Community College in Youngwood, Pennsylvania. From there, I earned an AAS in Baking and Pastry, AAS in Culinary Arts, and an AAS in Restaurant/Culinary Management.
-Funny/Interesting item about yourself: I'm very passionate about photography. You won't believe the places I have been traveled to for photos.
-I'd also like to share: I enjoy making my own desserts/candies at home. 
-
-employee_seven.jpg
-Personal Background: Hello! My name is Irene Daniels, and I'm from Dallas, Texas. I currently live in California with my husband, Matthew. 
-Academic Background: In 2014, I graduated from El Centro College with my AAS in Baking and Pastry. Later on, I went back and earned my AAS in Food and Hospitality Service.
-Funny/Interesting item about yourself: When I was 15, I won a youth cooking competition in high school.
-I'd also like to share: For my birthday, my husband gave me an adorable kitten. 
-
-employee_eight.jpg
-Personal Background: My name is Brooklyn Daniels, and I'm from London, England. It was very fun to grow up around so many major tourist destinations. Two years ago, I moved to Fairfax, Virginia.
-Academic Background: I have earned my AAS in Advanced Culinary Arts and AAS in Baking and Pastry Arts from the Stratford University School of Culinary Arts.
-Funny/Interesting item about yourself: Me and my friends throw an annual Halloween party. We choose a different theme each year and vote for the person who dresses up the least. They get pied with whipped cream.
-I'd also like to share: I'm very competitive and don't like losing. I have never gotten pied with whipped cream at our annual party. 
-
-employee_nine.jpg
-Personal Background: Hello, everyone! I'm Andrew Cooper from London, England. I moved to the States when I eight.
-Academic Background: I attended the Delaware Technical and Community College and earned my Associates in Culinary Arts. I have also completed the following diploma programs: Baking and Pastry Skills and Kitchen Skills Studies.
-Funny/Interesting item about yourself: I like making different crafts by hand. Recently, I made a cool music box.
-I'd also like to share: I'm proud to say that I served in the U.S. Navy. 
-
-employee_ten.jpg
-Personal Background: Hi, I'm Jason Fletcher. I was born and raised in Chicago, Illinois. 
-Academic Background: I attended the Kendall College National Louis University in Illinois. From there, I earned my AAS Culinary Arts and BA Culinary Arts.
-Funny/Interesting item about yourself: I love spending time outdoors. I enjoy any type of physical sport especially boxing. 
+employee_one.jpg
+Personal Background: Hello, I'm Ren Lee. I was born in Japan, but moved to Albany, New York, when I was three. Later on, I moved to Philadelphia, Pennsylvania, for my studies. 
+Academic Background: I graduated from Walnut Hill College with my Associates and Bachelor's in Culinary Arts. 
+Funny/Interesting item about yourself: In high school, I went roller blading with my friends and skipped class. I got caught :| 
+I'd also like to share: I enjoy riding motorcycles and playing sports. 
+
+employee_two.jpg
+Personal Background: I'm Steve Evans. I grew up in Charlotte, North Carolina.
+Academic Background: I'm currently attending Holyoke Community College in Holyoke, Massachusetts. I will be graduating this May with my AAS in Culinary Arts.
+Funny/Interesting item about yourself: Some people say I look like Captain America.
+I'd also like to share: I'm actually a very good artist.
+
+employee_three.jpg
+Personal Background: Hi! My name is Reyna Parker. I was born and raised in Sarasota, Florida. I re-located to Gulf Shores, Alabama, when I was seventeen.
+Academic Background: I attended the Coastal Alabama Community College and earned my AAS in Baking and Pastry Arts and AAS inCulinary Arts.
+Funny/Interesting item about yourself: I love trying out different foods and traveling. 
+I'd also like to share: My dream vacation is to go to South Korea.
+
+employee_four.jpg
+Personal Background: Hello, everyone. I'm Jin Kook. I'm from South Korea and now live in Los Angeles, CA.
+Academic Background: I earned my BS in Culinary Arts and AAS in Baking and Pastry Arts from Culinary Institute LENOTRE. 
+Funny/Interesting item about yourself: I can make many different candies. Sometimes, I even make them by hand. 
+I'd also like to share: I can speak Korean. 
+
+employee_five.jpg
+Personal Background: I'm Kai Chen. I was born in the amazing state Hawaii. I grew up cooking with my family and running along some beautiful beaches.
+Academic Background: I started attending Kapiolani Community College in 2015. Since then, I have earned my AS in Food services-Culinary Arts and a Certificate of Completion Pastry Arts.
+Funny/Interesting item about yourself: I once went on a cooking spree and made about 200 cupcakes. I also decorated then quite professionally, if I may add.
+I'd also like to share: I have traveled to over seven different countries. I also have family in South Korean and can speak fluent Korean.
+
+employee_six.jpg
+Personal Background: Hello, there. My name is Jackson Young.
+Academic Background: I went to Westmoreland County Community College in Youngwood, Pennsylvania. From there, I earned an AAS in Baking and Pastry, AAS in Culinary Arts, and an AAS in Restaurant/Culinary Management.
+Funny/Interesting item about yourself: I'm very passionate about photography. You won't believe the places I have been traveled to for photos.
+I'd also like to share: I enjoy making my own desserts/candies at home. 
+
+employee_seven.jpg
+Personal Background: Hello! My name is Irene Daniels, and I'm from Dallas, Texas. I currently live in California with my husband, Matthew. 
+Academic Background: In 2014, I graduated from El Centro College with my AAS in Baking and Pastry. Later on, I went back and earned my AAS in Food and Hospitality Service.
+Funny/Interesting item about yourself: When I was 15, I won a youth cooking competition in high school.
+I'd also like to share: For my birthday, my husband gave me an adorable kitten. 
+
+employee_eight.jpg
+Personal Background: My name is Brooklyn Daniels, and I'm from London, England. It was very fun to grow up around so many major tourist destinations. Two years ago, I moved to Fairfax, Virginia.
+Academic Background: I have earned my AAS in Advanced Culinary Arts and AAS in Baking and Pastry Arts from the Stratford University School of Culinary Arts.
+Funny/Interesting item about yourself: Me and my friends throw an annual Halloween party. We choose a different theme each year and vote for the person who dresses up the least. They get pied with whipped cream.
+I'd also like to share: I'm very competitive and don't like losing. I have never gotten pied with whipped cream at our annual party. 
+
+employee_nine.jpg
+Personal Background: Hello, everyone! I'm Andrew Cooper from London, England. I moved to the States when I eight.
+Academic Background: I attended the Delaware Technical and Community College and earned my Associates in Culinary Arts. I have also completed the following diploma programs: Baking and Pastry Skills and Kitchen Skills Studies.
+Funny/Interesting item about yourself: I like making different crafts by hand. Recently, I made a cool music box.
+I'd also like to share: I'm proud to say that I served in the U.S. Navy. 
+
+employee_ten.jpg
+Personal Background: Hi, I'm Jason Fletcher. I was born and raised in Chicago, Illinois. 
+Academic Background: I attended the Kendall College National Louis University in Illinois. From there, I earned my AAS Culinary Arts and BA Culinary Arts.
+Funny/Interesting item about yourself: I love spending time outdoors. I enjoy any type of physical sport especially boxing. 
 I'd also like to share: I loved to cooking with my mom when I was little and that was the reason I pursued a career in cooking.

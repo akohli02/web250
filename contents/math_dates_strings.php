@@ -15,7 +15,7 @@
 			<main>
 			<section>
 			
-				<h2>Math, Dates, and Strings</h2>
+				<h3>Math, Dates, and Strings</h3>
 				<h3>Sweet Paradise Specials</h3>
 			<?php 
 				
@@ -30,7 +30,7 @@
 				echo "<h4 style = text-align:center;>"."Weekly Bestseller: " . $BestSeller . "</h4>"; 
 				echo "<figure>"."<figcaption>"."Image courtesy of ".ucfirst('flickr')."</figcaption>".
 				"<img src = 'images/coco_choco.jpg'>"."<figcaption>"."We have sold ".(rand(50,100)).
-				" Coconut Chocolate Cupcakes in March 2022!"."</figcaption>"."</figure>"."<hr>";
+				" Coconut Chocolate Cupcakes in this month!"."</figcaption>"."</figure>"."<hr>";
 				
 				//Math Function 2
 				//Date function 1

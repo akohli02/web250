@@ -12,7 +12,7 @@
 <body>
 	<main>
 		<section>
-		<h2> Our Top 10 Employees of the Month</h2>
+		<h3> Our Top 10 Employees of the Month</h3>
 		
 	 <?php
 		$myFile =  fopen("staff.txt", "r") or die("can't open file");

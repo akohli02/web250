@@ -16,10 +16,8 @@
 
 #regForm {
   background-color: #fdebff;
-  margin: 100px auto;
-  font-family: Raleway;
-  padding: 40px;
-  width: 70%;
+  margin: 80px auto;
+  width: 80%;
   min-width: 300px;
 }
 
@@ -31,7 +29,6 @@ input {
   padding: 10px;
   width: 100%;
   font-size: 17px;
-  font-family: Raleway;
   border: 1px solid #aaaaaa;
 }
 
@@ -52,7 +49,7 @@ input[type = "button"], input[type = "reset"] {
   font-size: 17px;
   cursor: pointer;
   height:45px;
-	width:100px;
+  width:100px;
 
 }
 
@@ -129,8 +126,8 @@ input[type = "color"] {
 
 <body>
 			<main>
-			
-			 <form id="regForm" action="" method="post">
+                    <section>
+			 <form id="regForm" name = "cakeForm" action="" method="post" >
 			  <h1>Build a Cake:</h1>
 			  <!-- One "tab" for each step in the form: -->
 			  <div class="tab">Your Name:
@@ -225,7 +222,7 @@ input[type = "color"] {
 				<p><label  for="myfile">Sweet Deal Coupon:</label>
 				<input type="button" id ="memcard" value="?" onClick="showMessage()" >
 				<input type="file" id="myfile" name="myfile"></p>
-				<input type ="submit" name="Submit" value ="Submit" > <br>
+				<input type ="submit" name="Submit" value ="Submit" id="btnsubmit" onClick="document.getElementById('regForm').submit();"> <br>
 
 			  </div>
 			  
@@ -318,9 +315,11 @@ input[type = "color"] {
 				<span class="step"></span>
 			  </div>
 			</form>
+                </section>
 			</main>			  	  
 			 
 <script>
+
 var currentTab = 0; // Current tab is set to be the first tab (0)
 showTab(currentTab); // Display the current tab
 

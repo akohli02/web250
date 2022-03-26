@@ -1,89 +1,89 @@
-
-INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
-('3',
- 'Image Courtesy of Flickr',
- 'lemon_pie.jpg',
- 'Lemon Meringue Pie',
-'A tasty meringue pie with lemon flavoring',
-'Eggs, Sugar, All-Purpose Flour, Cornstarch, Salt, Lemon Zest, Cream of Tartar, Butter')
-
-
-INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
-('4',
- 'Image Courtesy of Flickr',
- 'choco_shake.jpg',
- 'Chocolate Milkshake',
-'A chocolate milkshake topped with whipped cream and chocolate syrup',
-'Milk, Chocolate Syrup, Whipped Cream, Vanilla Ice Cream')
-
-INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
-('5',
- 'Image Courtesy of Flickr',
- 'mac_cake.jpg',
- 'Macaron Cake',
-'A 3-tiered vanilla cake decorated with pink and blue macarons',
-'Butter, Sugar, All-Purpose Flour, Eggs, Salt, Vanilla, Milk, Cream of Tartar, Almond Flour, Confectioners’ Sugar, Food Coloring')
-
-INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
-('6',
- 'Image Courtesy of Flickr',
- 'choco_coco.jpg',
- 'Chocolate Coconut Cupcakes',
-'Chocolate cupcakes with coconut icing and flakes and chocolate syrup drizzeled on top',
-'Butter, Sugar, All-Purpose Flour, Coconut Oil, Salt, Baking Powder, Coconut Icing, Chocolate Syrup, Cocoa Powder')
-
-INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
-('7',
- 'Image Courtesy of Flickr',
- 'donut.jpg',
- 'Array of Colors -- Occasional',
-'A variety of donuts with beautiful and colorful designs',
-'Milk, Sugar, All-Purpose Flour, Yeast, Salt, Butter, Vanilla Extract, Powdered Sugar, Food Coloring ')
-
-INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
-('8',
- 'Image Courtesy of Flickr',
- 'ice_cream.jpg',
- 'Vanilla Cheesecake Ice Cream',
-'Vanilla ice cream with bits of cheesecake all wrapped up in a regular-sized waffle cone',
-'Vanilla Extract, Sugar, Milk, Salt, Cream Cheese, Whole Wheat Flour, Honey, Brown Sugar')
-
-INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
-('9',
- 'Image Courtesy of Flickr',
- 'spring_cake.jpg',
- 'Spring Cake',
-'The perfect cake to welcome spring',
-'Butter, Sugar, All-Purpose Flour, Chocolate, Salt, Fondant, Vanilla, Eggs')
-
-INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
-('10',
- 'Image Courtesy of Flickr',
- 'macaron.jpg',
- 'Macaron Box',
-'A box of different flavored macarons',
-'Almond Flour, Powdered Sugar, All-Purpose Flour, Butter, Salt, Food Coloring, Chocolate, Vanilla Extract, Heavy Cream')
-
-INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
-('11',
- 'Image Courtesy of Flickr',
- 'hard_candy.jpg',
- 'Sour Bombs',
-'Hand-made hard sour candies in various shapes',
-'Suagr, Corn Syrup, Water, Citric Acid, Food Coloring, Powdered Sugar, Fruit Extracts')
-
-INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
-('12',
- 'Image Courtesy of Flickr',
- 'jap_candy.jpg',
- 'Kintaro Candy',
-'Hand-made Japanese candies that have the same picture everytime you cut it. You will receive a card that has more information about these special candies.',
-'Suagr, Malt Syrup, Food Coloring')
-
-INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
-('14',
- 'Image Courtesy of Flickr',
- 'jello.jpg',
- 'Jell-O Shots',
-'Double layered rainbow jello shots',
+
+INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
+('3',
+ 'Image Courtesy of Flickr',
+ 'lemon_pie.jpg',
+ 'Lemon Meringue Pie',
+'A tasty meringue pie with lemon flavoring',
+'Eggs, Sugar, All-Purpose Flour, Cornstarch, Salt, Lemon Zest, Cream of Tartar, Butter')
+
+
+INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
+('4',
+ 'Image Courtesy of Flickr',
+ 'choco_shake.jpg',
+ 'Chocolate Milkshake',
+'A chocolate milkshake topped with whipped cream and chocolate syrup',
+'Milk, Chocolate Syrup, Whipped Cream, Vanilla Ice Cream')
+
+INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
+('5',
+ 'Image Courtesy of Flickr',
+ 'mac_cake.jpg',
+ 'Macaron Cake',
+'A 3-tiered vanilla cake decorated with pink and blue macarons',
+'Butter, Sugar, All-Purpose Flour, Eggs, Salt, Vanilla, Milk, Cream of Tartar, Almond Flour, Confectioners’ Sugar, Food Coloring')
+
+INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
+('6',
+ 'Image Courtesy of Flickr',
+ 'choco_coco.jpg',
+ 'Chocolate Coconut Cupcakes',
+'Chocolate cupcakes with coconut icing and flakes and chocolate syrup drizzeled on top',
+'Butter, Sugar, All-Purpose Flour, Coconut Oil, Salt, Baking Powder, Coconut Icing, Chocolate Syrup, Cocoa Powder')
+
+INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
+('7',
+ 'Image Courtesy of Flickr',
+ 'donut.jpg',
+ 'Array of Colors -- Occasional',
+'A variety of donuts with beautiful and colorful designs',
+'Milk, Sugar, All-Purpose Flour, Yeast, Salt, Butter, Vanilla Extract, Powdered Sugar, Food Coloring ')
+
+INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
+('8',
+ 'Image Courtesy of Flickr',
+ 'ice_cream.jpg',
+ 'Vanilla Cheesecake Ice Cream',
+'Vanilla ice cream with bits of cheesecake all wrapped up in a regular-sized waffle cone',
+'Vanilla Extract, Sugar, Milk, Salt, Cream Cheese, Whole Wheat Flour, Honey, Brown Sugar')
+
+INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
+('9',
+ 'Image Courtesy of Flickr',
+ 'spring_cake.jpg',
+ 'Spring Cake',
+'The perfect cake to welcome spring',
+'Butter, Sugar, All-Purpose Flour, Chocolate, Salt, Fondant, Vanilla, Eggs')
+
+INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
+('10',
+ 'Image Courtesy of Flickr',
+ 'macaron.jpg',
+ 'Macaron Box',
+'A box of different flavored macarons',
+'Almond Flour, Powdered Sugar, All-Purpose Flour, Butter, Salt, Food Coloring, Chocolate, Vanilla Extract, Heavy Cream')
+
+INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
+('11',
+ 'Image Courtesy of Flickr',
+ 'hard_candy.jpg',
+ 'Sour Bombs',
+'Hand-made hard sour candies in various shapes',
+'Suagr, Corn Syrup, Water, Citric Acid, Food Coloring, Powdered Sugar, Fruit Extracts')
+
+INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
+('12',
+ 'Image Courtesy of Flickr',
+ 'jap_candy.jpg',
+ 'Kintaro Candy',
+'Hand-made Japanese candies that have the same picture everytime you cut it. You will receive a card that has more information about these special candies.',
+'Suagr, Malt Syrup, Food Coloring')
+
+INSERT INTO `menu`(`ID`, `Image_Source`, `Image`, `Name`, `Description`, `Ingredients`) VALUES 
+('14',
+ 'Image Courtesy of Flickr',
+ 'jello.jpg',
+ 'Jell-O Shots',
+'Double layered rainbow jello shots',
 'Suagr, Condensed Milk, Food Coloring, Gelatin, Honey')

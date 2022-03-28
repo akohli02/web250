@@ -66,12 +66,12 @@
                     <input name="submit_food" type="submit" value="Submit" /><br />
                 </form>
                
+                 <hr>
 				 <p class = "logout-text"> <a href="index.php? logout='1'">Logout</a></p>
                  
                  <?php 
                 include 'db.php'; include 'session.php';
-                $db = mysqli_connect('sql301.epizy.com', 'epiz_30960597', 'MTYHj2muxW1', 'epiz_30960597_test');
-
+            
                 // getting the values from the form
                 if (isset($_POST['submit_food'])) {
                     $name = mysqli_real_escape_string($db, $_POST['name']);

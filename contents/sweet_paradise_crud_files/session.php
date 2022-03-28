@@ -1,10 +1,13 @@
-<?php include 'db.php'; //This is connecting to database
+<?php include 'db.php';
 session_start();
 
 //Initializing the variables to empty string
 $username = "";
 $email    = "";
-$errors = array();
+$errors = array(); 
+
+//Connecting to the database
+$db = mysqli_connect('sql301.epizy.com', 'epiz_30960597', 'MTYHj2muxW1', 'epiz_30960597_test');
 
 //User Registration Form
 //This will take in all input values from the form and store them as variables

@@ -1,6 +1,5 @@
  <?php
-#$db = new mysqli('sql301.epizy.com', 'epiz_30960597', 'MTYHj2muxW1', 'epiz_30960597_test' );
-$db = new mysqli('localhost', 'root', '', 'epiz_30960597_test' );
+$db = new mysqli('sql301.epizy.com', 'epiz_30960597', 'MTYHj2muxW1', 'epiz_30960597_test' );
 /* check connection */
 if (mysqli_connect_errno()) {
     printf("Connect failed: %s\n", mysqli_connect_error());

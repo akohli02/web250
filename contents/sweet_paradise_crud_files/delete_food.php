@@ -44,7 +44,7 @@
                     $query = "DELETE FROM user_food WHERE username = '$username' AND ID = '$ID' ";
                     
                     if ($result = $db->query($query)) {
-                        echo "Deleted form successfully!";
+                        echo "Deleted submission successfully!";
                     }
                     else
                     {

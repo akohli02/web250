@@ -42,7 +42,9 @@
 <body>
 		<main>
 			<section>
-				<h3>Edit Form</h3>
+				<h3>Edit Form</h3> 
+
+                <?php include 'db.php';  include 'session.php'; ?>
 
                 <script>
                 //Will get the parameter value passed in through the url
@@ -59,8 +61,10 @@
                 var ID = getParameterByName('ID');
                 </script>
 
-                <?php include 'db.php';
-                //getting the ID from the Javascript function
+                <?php 
+                    $db = mysqli_connect('sql301.epizy.com', 'epiz_30960597', 'MTYHj2muxW1', 'epiz_30960597_test');
+                    
+                    //getting the ID from the Javascript function
                     $ID = $_GET['ID'];
 
                     //getting the username from the current active session
@@ -81,7 +85,7 @@
 
                     $db->close();
                     ?>
-                            <form id = 'regForm' name = 'regForm' action = '' method= 'post'>
+                            <form id = 'regForm' name = 'regForm' action = '' method= 'post' enctype='multipart/form-data'>
                                 
                                 <label for='name'>Food name: </label> <br />
                                 <input name='name' type='text' value= '<?php print $food_name ?>' required/> <br />
@@ -103,7 +107,7 @@
 
                             </form>
                     <?php 
-                        $db = mysqli_connect('localhost', 'root', '', 'epiz_30960597_test');
+                        $db = mysqli_connect('sql301.epizy.com', 'epiz_30960597', 'MTYHj2muxW1', 'epiz_30960597_test');
 
                         $username = isset($_SESSION['username'])? $_SESSION['username'] : null;
 
@@ -115,6 +119,14 @@
                             $ingredients =  mysqli_real_escape_string($db, $_POST['ingredients']);
                             $username = isset($_SESSION['username'])? $_SESSION['username'] : null;                      
                             
+                            //if no image file is selected then the existing image will be submitted
+                            if (empty($_FILES['file']['name']))
+                            {
+                                $cur_img = $image; 
+                                $edit = "UPDATE user_food SET name='$name', description = '$description',
+                               ingredients = '$ingredients', image = '$cur_img' WHERE username = '$username' AND ID = '$ID'";
+                            }
+
                             //if an image is selected then it will replace the previous image
                             if (!empty($_FILES['file']['name'])){
                                 $img_name = $_FILES['file']['name'];
@@ -131,7 +143,7 @@
 
                             //If the form is updated correctly
                             if ($db->query($edit) === TRUE) {
-                               echo "Form updated successfully! Navigate to your account page to see the updates!". "img" . $img_name;
+                               echo "Form updated successfully! Navigate to your account page to see the updates!";
                             }
 
                             //if the form is not updated

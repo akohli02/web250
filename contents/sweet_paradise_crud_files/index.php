@@ -12,8 +12,7 @@
 </head>
 
 <body>
-
-<!-- Header with JS Clock, Class Name, and Brand logo -->
+		<!-- Header with JS Clock, Class Name, and Brand logo -->
 		<header>
 			 
 			<img id ="logo" alt = "Logo" src="images/logo.png" />

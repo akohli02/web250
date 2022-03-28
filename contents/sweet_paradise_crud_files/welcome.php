@@ -105,6 +105,7 @@
 
 				 ?> 
 
+                <hr>
                  <p class = logout-text> <a href="welcome.php?logout='1'">Logout</a> </p>
                 <?php endif ?>
     	

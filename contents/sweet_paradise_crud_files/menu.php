@@ -47,7 +47,7 @@ $ID = $_GET['ID'];
 $query = "SELECT * FROM menu ORDER BY Name";
 
 /* Try to query the database */
-if ($result = $mysqli->query($query)) {
+if ($result = $db->query($query)) {
    // Don't do anything if successful
 
 }
@@ -85,8 +85,9 @@ while ($result_ar = mysqli_fetch_assoc($result)) {
     }
   
 }
-$mysqli->close();
+$db->close();
 ?>
+        <hr>
          <p class = "logout-text"> <a href="index.php?logout='1'">Logout</a></p>
 
 		</section>

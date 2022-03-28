@@ -255,3 +255,17 @@ input[type = "button"]:hover {
     font-style:normal;
 }
 
+button {
+  background-color: #b3c8ff;
+  color: #40020a;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  height:45px;
+  width:100px;
+  margin-top:10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}

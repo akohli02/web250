@@ -85,7 +85,7 @@
 			<section>
 				<h3>Account Page</h3> 
 
-                <?php include 'db.php';  include 'session.php'; ?>
+                <?php  include 'db.php'; include 'session.php'; ?>
                 
                 <?php if (isset($_SESSION['username'])) : ?>
                 <h4><strong><?php echo $_SESSION['username']; ?></strong>'s Account Details</h4>
@@ -93,13 +93,11 @@
                 <p>Username: <?php echo $_SESSION['username']; ?></p>
 
                <?php 
-
-                    $my_db = mysqli_connect('sql301.epizy.com', 'epiz_30960597', 'MTYHj2muxW1', 'epiz_30960597_test');
-
+ 
                     $username = isset($_SESSION['username'])? $_SESSION['username'] : null;
                     $sql = "SELECT * FROM user_login WHERE username = '$username'";
 
-                    $info = $my_db->query($sql);
+                    $info = $db->query($sql);
 
                     while ($user_result = $info->fetch_assoc()) { 
                         //Display user information
@@ -110,15 +108,13 @@
                         echo "<p>"."Join Date: ". $join_date. "</p>";
                         
                     }
-                    $my_db->close();
+                    
                 ?>
                 
                 <h4>Other</h4>
                 <h5>Sweet Paradise Bake Off Submissions</h5>
 
                 <?php 
-                    $db = mysqli_connect('sql301.epizy.com', 'epiz_30960597', 'MTYHj2muxW1', 'epiz_30960597_test');
-
                     $username = isset($_SESSION['username'])? $_SESSION['username'] : null;
                     $query = "SELECT * FROM user_food WHERE username = '$username'";
 
@@ -133,8 +129,6 @@
 
                     else {
                         while ($result_ar = $result->fetch_assoc()) {
-                            
-                            
 
                             //store the values in variables
                             $image = $result_ar['image'];

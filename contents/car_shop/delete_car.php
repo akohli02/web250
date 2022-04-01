@@ -23,7 +23,7 @@ else
 
 $mysqli->close();
    
-?>
+?><p><a href="view_cars_with_style_two.php">View Cars with Edit Links</a></p>
 
 </body>
 

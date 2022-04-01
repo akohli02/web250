@@ -50,7 +50,7 @@ else
  echo "Error entering $VIN into database: " . mysql_error()."<br>";
 }
 $mysqli->close();
-?>
+?><p><a href="view_cars_with_style_two.php">View Cars with Edit Links</a></p>
 
 </body>
 </html>

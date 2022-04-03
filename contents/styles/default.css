@@ -24,6 +24,10 @@ main {
 	background-color:#c9feff;
 }
 
+em {
+    font-family: Bonbon;
+}
+
 /**Header Styles */
 
 header  {

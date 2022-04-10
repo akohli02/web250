@@ -42,7 +42,7 @@ input.invalid {
   display: none;
 }
 
-input[type = "button"], input[type = "reset"] {
+input[type = "button"], input[type = "reset"]{
   background-color: #b3c8ff;
   color: #40020a;
   border: none;
@@ -129,13 +129,14 @@ input[type = "color"] {
                     <section>
 			 <form id="regForm" name = "cakeForm" action="" method="post" >
 			  <h1>Build a Cake:</h1>
+              <h5>fields marked with an asterisk (*) are required</h5>
 			  <!-- One "tab" for each step in the form: -->
-			  <div class="tab">Your Name:
-				<p><input placeholder="First name" oninput="this.className = ''" name="fname"></p>
-				<p><input placeholder="Last name" oninput="this.className = ''" name="lname"></p>
-					Your Contact Info:
-				<p><input type="email" id="email" placeholder="sample@mail.com" oninput="this.className = ''" name="email"></p>
-				<p><input type="tel" id="phone" name="phone" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" oninput="this.className = ''"></p>
+			  <div class="tab">Your Name*
+				<p><input placeholder="First name" oninput="this.className = ''" name="fname" required></p>
+				<p><input placeholder="Last name" oninput="this.className = ''" name="lname" required></p>
+					Your Contact Info*
+				<p><input type="email" id="email" placeholder="sample@mail.com" oninput="this.className = ''" name="email" required></p>
+				<p><input type="tel" id="phone" name="phone" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" oninput="this.className = ''" required></p>
 			  </div>
 			  
 			  <div class="tab">Frosting:
@@ -155,17 +156,17 @@ input[type = "color"] {
 				<label for="allergy2">Milk</label></p>
 				<p><input type="checkbox" id="allergy3" name="allergy[]" value="Eggs">
 				<label for="allergy3">Eggs</label></p>
-				<p><label for="fname">Other:</label>
+				<p><label for="fname">Other*</label>
 				<input type="text" id="fname" name="moreAllergy" 
-				placeholder="List any other allergies or simple type &quot;No other allergies&quot;"></p>
+				placeholder="List any other allergies or simple type &quot;No other allergies&quot;" required></p>
 			  </div>
 			  
 			  <div class="tab">Size:
-				<p><input type="range" id="size" name="size" step ="2" value = "6" min="6" max="12" oninput="this.className = ''">
+				<p><input type="range" id="size" name="size" step ="2" value = "6" min="6" max="12" oninput="this.className = ''" >
 				<img style ="float: left" src ="images/cake_size.png" alt = "cake size"/> </p> <br>
   
 				<br> Select your cake color:
-				<p><input type="color" id="color" name="color" value="#6f47ff" oninput="this.className = ''"></p>
+				<p><input type="color" id="color" name="color" value="#6f47ff" oninput="this.className = ''" ></p>
 				
 				<br>Toppings:
 				<p><input type="checkbox" id="topping1" name="topping[]" value="Mini Chocolates">
@@ -181,8 +182,8 @@ input[type = "color"] {
 				<p><input type="checkbox" id="topping6" name="topping[]" value="None">
 				<label for="topping6">None</label></p>
 				
-				<p><label for="city">Cake Topper:</label>
-				<select name="topper" id="topper">
+				<p><label for="city">Cake Topper*</label>
+				<select name="topper" id="topper" required>
 					<option>Happy Birthday </option>
 					<option>Mr. and Mrs. Forever</option>
 					<option>Happy New Year</option>
@@ -194,31 +195,31 @@ input[type = "color"] {
 					<option>None</option>
 				</select></p>
 				
-				<p><label for="message">Cake Message:</label>
+				<p><label for="message">Cake Message*</label>
 				<input type="text" id="message" name="message" 
-				placeholder="Type the exact text you would like on the cake or type &quot;None&quot;" oninput="this.className = ''"></p>
+				placeholder="Type the exact text you would like on the cake or type &quot;None&quot;" oninput="this.className = ''" required></p>
 			  </div>
 			  
 			  <div class="tab">Mailing Address:
-				<p><label for="fullname">Full Name</label>
-				<input type="text" id="fullname" name="fullname" placeholder="John M. Doe" oninput="this.className = ''"></p>
-				<p><label for="address">Full Address</label>
-				<input type="text" id="adr" name="address" placeholder="542 W. 15th Street, New York City, NY, 100001" oninput="this.className = ''"></p>
+				<p><label for="fullname">Full Name*</label>
+				<input type="text" id="fullname" name="fullname" placeholder="John M. Doe" oninput="this.className = ''" required></p>
+				<p><label for="address">Full Address*</label>
+				<input type="text" id="adr" name="address" placeholder="542 W. 15th Street, New York City, NY, 100001" oninput="this.className = ''" required></p>
 
 				<br>Card Information:<br>
 				<p><label for="fname">Accepted Cards</label><br>
 				<img style ="float: left" src ="images/cards.png" alt = "accepted cards"/><br><br></p>
            
-				<p><label for="cardname">Name on Card</label>
-				<input type="text" id="cardname" name="cardname" placeholder="John Doe"></p>
-				<p><label for="cardnum">Credit card number</label>
-				<input type="text" id="cardnum" name="cardnum" placeholder="1111-2222-3333-4444"></p>
-				<p><label for="expmonth">Exp Month</label>
-				<input type="text" id="expmonth" name="expmonth" placeholder="September"></p>
-				<p><label for="expyear">Exp Year</label>
-				<input type="text" id="expyear" name="expyear" placeholder="2018"></p>
-				<p><label for="cvv">CVV</label>
-				<input type="text" id="cvv" name="cvv" placeholder="352"></p>
+				<p><label for="cardname">Name on Card*</label>
+				<input type="text" id="cardname" name="cardname" placeholder="John Doe" required></p>
+				<p><label for="cardnum">Credit card number*</label>
+				<input type="text" id="cardnum" name="cardnum" placeholder="1111-2222-3333-4444" required></p>
+				<p><label for="expmonth">Exp Month*</label>
+				<input type="text" id="expmonth" name="expmonth" placeholder="September" required></p>
+				<p><label for="expyear">Exp Year*</label>
+				<input type="text" id="expyear" name="expyear" placeholder="2018" required></p>
+				<p><label for="cvv">CVV*</label>
+				<input type="text" id="cvv" name="cvv" placeholder="352" required></p>
 				<p><label  for="myfile">Sweet Deal Coupon:</label>
 				<input type="button" id ="memcard" value="?" onClick="showMessage()" >
 				<input type="file" id="myfile" name="myfile"></p>
@@ -226,8 +227,10 @@ input[type = "color"] {
 
 			  </div>
 			  
+            
 			  <!-- PHP that outputs the form results with the post method -->
 				<?php 
+
 					 if (isset($_POST["Submit"])) { 
 					 $fname = $_POST["fname"]; 
 					 $lname = $_POST["lname"];
@@ -297,10 +300,11 @@ input[type = "color"] {
 					 echo $output;
 					 
 					 }
+                     
 				 ?> 
 				 
 			   <div style="overflow:auto;">
-			  <input type="reset" value="Reset Form">
+			  <input type="reset" value="Reset">
 				<div style="float:right;">
 				  <input type="button" id="prevBtn" onclick="nextPrev(-1)" value = "Previous">
 				  <input type="button" id="nextBtn" onclick="nextPrev(1)"  value = "Next">
@@ -395,21 +399,6 @@ function fixStepIndicator(n) {
   x[n].className += " active";
 }
 
-//Radio buttons validate
-function send() {
-                var radio = document.getElementsByName("frosting");
-                if (radio[0].checked == true) {
-                    
-                } else if (radio[1].checked == true) {
-                    
-                } else {
-                    // no checked
-                    var msg = '<span style="color:red;">You must select an option!</span><br /><br />';
-                    document.getElementById('msg').innerHTML = msg;
-                    return false;
-                }
-                return true;
-            }
 			
 //show coupon message
  function showMessage() {
